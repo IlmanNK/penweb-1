@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: red;
+  float: left;
+  margin-left: 1.5em;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: plum;
+  font-family: "Open sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: pink;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgbo(0, 0, 0, 0.3);
+  width:500px;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #000;
+  padding: 20px 40px;
+}
+
+.header h2 {
+  margin: 0;
+} 
+
+form {
+  padding: 20px 40px;
+  background-color: ;
+  /* display: flex; */
+  overflow: hidden;
+  display: grid;
+
+}
+
+.form-group {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  border: 2px solid #f0f0f0;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 300px;
+}
+
+/* .form-control.success input {
+  border-color: green;
+}
+
+.form-control.error input {
+  border-color: red; */
+
+/* .form-control i {
+  position: absolute;
+  right: 40px;
+  top: 10px;
+  visibility: hidden;
+} */
+
+/* .form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+} */
+
+/* .form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+} */
+
+/* .form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form button {
+  background-color: #8e44ad;
+  border: 2px solid #8e44ad;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+} */
+/* label{
+    float: left;
+    width: 200px;
+    padding-right: 20x;
+}
+
+/* input{
+    float: left;
+    width: calc(100% - 200px);
+} */
+
+
+
